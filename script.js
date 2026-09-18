@@ -52,7 +52,7 @@ function updateCountdown() {
     const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
     // Validasi aturan: Hanya tampil jika masuk H-14 acara
-    if (days <= 27 && timeDifference > 0) {
+    if (days <= 14 && timeDifference > 0) {
         countdownWrapper.innerHTML = `
             <div class="countdown-container">
                 <div class="countdown-box">
