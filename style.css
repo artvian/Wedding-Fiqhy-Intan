@@ -173,7 +173,7 @@ body {
 .logo-image {
     position: relative;
     z-index: 1;
-    width: 98%;
+    width: 99%;
     height: 90%;
     object-fit: contain;
     mix-blend-mode: screen;
